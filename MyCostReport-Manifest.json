@@ -1,0 +1,370 @@
+{
+  "assemblyId": "20240822T195122Z",
+  "account": "123456789012",
+  "columns": [
+    {
+      "category": "identity",
+      "name": "identity_line_item_id",
+      "type": "STRING"
+    },
+    {
+      "category": "identity",
+      "name": "identity_time_interval",
+      "type": "STRING"
+    },
+    {
+      "category": "bill",
+      "name": "bill_invoice_id",
+      "type": "STRING"
+    },
+    {
+      "category": "bill",
+      "name": "bill_invoicing_entity",
+      "type": "STRING"
+    },
+    {
+      "category": "bill",
+      "name": "bill_billing_entity",
+      "type": "STRING"
+    },
+    {
+      "category": "bill",
+      "name": "bill_bill_type",
+      "type": "STRING"
+    },
+    {
+      "category": "bill",
+      "name": "bill_payer_account_id",
+      "type": "STRING"
+    },
+    {
+      "category": "bill",
+      "name": "bill_billing_period_start_date",
+      "type": "TIMESTAMP"
+    },
+    {
+      "category": "bill",
+      "name": "bill_billing_period_end_date",
+      "type": "TIMESTAMP"
+    },
+    {
+      "category": "lineItem",
+      "name": "line_item_usage_account_id",
+      "type": "STRING"
+    },
+    {
+      "category": "lineItem",
+      "name": "line_item_line_item_type",
+      "type": "STRING"
+    },
+    {
+      "category": "lineItem",
+      "name": "line_item_usage_start_date",
+      "type": "TIMESTAMP"
+    },
+    {
+      "category": "lineItem",
+      "name": "line_item_usage_end_date",
+      "type": "TIMESTAMP"
+    },
+    {
+      "category": "lineItem",
+      "name": "line_item_product_code",
+      "type": "STRING"
+    },
+    {
+      "category": "lineItem",
+      "name": "line_item_usage_type",
+      "type": "STRING"
+    },
+    {
+      "category": "lineItem",
+      "name": "line_item_operation",
+      "type": "STRING"
+    },
+    {
+      "category": "lineItem",
+      "name": "line_item_availability_zone",
+      "type": "STRING"
+    },
+    {
+      "category": "lineItem",
+      "name": "line_item_usage_amount",
+      "type": "DOUBLE"
+    },
+    {
+      "category": "lineItem",
+      "name": "line_item_normalization_factor",
+      "type": "DOUBLE"
+    },
+    {
+      "category": "lineItem",
+      "name": "line_item_normalized_usage_amount",
+      "type": "DOUBLE"
+    },
+    {
+      "category": "lineItem",
+      "name": "line_item_currency_code",
+      "type": "STRING"
+    },
+    {
+      "category": "lineItem",
+      "name": "line_item_unblended_rate",
+      "type": "STRING"
+    },
+    {
+      "category": "lineItem",
+      "name": "line_item_unblended_cost",
+      "type": "DOUBLE"
+    },
+    {
+      "category": "lineItem",
+      "name": "line_item_blended_rate",
+      "type": "STRING"
+    },
+    {
+      "category": "lineItem",
+      "name": "line_item_blended_cost",
+      "type": "DOUBLE"
+    },
+    {
+      "category": "lineItem",
+      "name": "line_item_line_item_description",
+      "type": "STRING"
+    },
+    {
+      "category": "lineItem",
+      "name": "line_item_tax_type",
+      "type": "STRING"
+    },
+    {
+      "category": "lineItem",
+      "name": "line_item_legal_entity",
+      "type": "STRING"
+    },
+    {
+      "category": "product",
+      "name": "product_product_name",
+      "type": "STRING"
+    },
+    {
+      "category": "product",
+      "name": "product_location",
+      "type": "STRING"
+    },
+    {
+      "category": "product",
+      "name": "product_location_type",
+      "type": "STRING"
+    },
+    {
+      "category": "product",
+      "name": "product_product_family",
+      "type": "STRING"
+    },
+    {
+      "category": "product",
+      "name": "product_region",
+      "type": "STRING"
+    },
+    {
+      "category": "product",
+      "name": "product_region_code",
+      "type": "STRING"
+    },
+    {
+      "category": "product",
+      "name": "product_servicecode",
+      "type": "STRING"
+    },
+    {
+      "category": "product",
+      "name": "product_servicename",
+      "type": "STRING"
+    },
+    {
+      "category": "product",
+      "name": "product_sku",
+      "type": "STRING"
+    },
+    {
+      "category": "product",
+      "name": "product_storage_class",
+      "type": "STRING"
+    },
+    {
+      "category": "product",
+      "name": "product_usagetype",
+      "type": "STRING"
+    },
+    {
+      "category": "pricing",
+      "name": "pricing_rate_code",
+      "type": "STRING"
+    },
+    {
+      "category": "pricing",
+      "name": "pricing_rate_id",
+      "type": "STRING"
+    },
+    {
+      "category": "pricing",
+      "name": "pricing_currency",
+      "type": "STRING"
+    },
+    {
+      "category": "pricing",
+      "name": "pricing_public_on_demand_cost",
+      "type": "DOUBLE"
+    },
+    {
+      "category": "pricing",
+      "name": "pricing_public_on_demand_rate",
+      "type": "STRING"
+    },
+    {
+      "category": "pricing",
+      "name": "pricing_unit",
+      "type": "STRING"
+    },
+    {
+      "category": "reservation",
+      "name": "reservation_amortized_upfront_cost_for_usage",
+      "type": "DOUBLE"
+    },
+    {
+      "category": "reservation",
+      "name": "reservation_amortized_upfront_fee_for_billing_period",
+      "type": "DOUBLE"
+    },
+    {
+      "category": "reservation",
+      "name": "reservation_effective_cost",
+      "type": "DOUBLE"
+    },
+    {
+      "category": "reservation",
+      "name": "reservation_end_time",
+      "type": "STRING"
+    },
+    {
+      "category": "reservation",
+      "name": "reservation_modification_status",
+      "type": "STRING"
+    },
+    {
+      "category": "reservation",
+      "name": "reservation_normalized_units_per_reservation",
+      "type": "STRING"
+    },
+    {
+      "category": "reservation",
+      "name": "reservation_number_of_reservations",
+      "type": "STRING"
+    },
+    {
+      "category": "reservation",
+      "name": "reservation_recurring_fee_for_usage",
+      "type": "DOUBLE"
+    },
+    {
+      "category": "reservation",
+      "name": "reservation_start_time",
+      "type": "STRING"
+    },
+    {
+      "category": "reservation",
+      "name": "reservation_subscription_id",
+      "type": "STRING"
+    },
+    {
+      "category": "reservation",
+      "name": "reservation_total_reserved_normalized_units",
+      "type": "STRING"
+    },
+    {
+      "category": "reservation",
+      "name": "reservation_total_reserved_units",
+      "type": "STRING"
+    },
+    {
+      "category": "reservation",
+      "name": "reservation_units_per_reservation",
+      "type": "STRING"
+    },
+    {
+      "category": "reservation",
+      "name": "reservation_unused_amortized_upfront_fee_for_billing_period",
+      "type": "DOUBLE"
+    },
+    {
+      "category": "reservation",
+      "name": "reservation_unused_normalized_unit_quantity",
+      "type": "DOUBLE"
+    },
+    {
+      "category": "reservation",
+      "name": "reservation_unused_quantity",
+      "type": "DOUBLE"
+    },
+    {
+      "category": "reservation",
+      "name": "reservation_unused_recurring_fee",
+      "type": "DOUBLE"
+    },
+    {
+      "category": "reservation",
+      "name": "reservation_upfront_value",
+      "type": "DOUBLE"
+    },
+    {
+      "category": "savingsPlan",
+      "name": "savings_plan_total_commitment_to_date",
+      "type": "DOUBLE"
+    },
+    {
+      "category": "savingsPlan",
+      "name": "savings_plan_savings_plan_a_r_n",
+      "type": "STRING"
+    },
+    {
+      "category": "savingsPlan",
+      "name": "savings_plan_savings_plan_rate",
+      "type": "DOUBLE"
+    },
+    {
+      "category": "savingsPlan",
+      "name": "savings_plan_used_commitment",
+      "type": "DOUBLE"
+    },
+    {
+      "category": "savingsPlan",
+      "name": "savings_plan_savings_plan_effective_cost",
+      "type": "DOUBLE"
+    },
+    {
+      "category": "savingsPlan",
+      "name": "savings_plan_amortized_upfront_commitment_for_billing_period",
+      "type": "DOUBLE"
+    },
+    {
+      "category": "savingsPlan",
+      "name": "savings_plan_recurring_commitment_for_billing_period",
+      "type": "DOUBLE"
+    }
+  ],
+  "charset": "UTF-8",
+  "compression": "Parquet",
+  "contentType": "Parquet",
+  "reportId": "bXdpc2NTS1EyVHBBSnJZbENuRlNLREpqMDJDTE9VU0wzRHBDVzhJSVp1OXF3ckR5",
+  "reportName": "MyCostReport",
+  "billingPeriod": {
+    "start": "20240801T000000.000Z",
+    "end": "20240901T000000.000Z"
+  },
+  "bucket": "my-cur-bucket-AVJvmjFttDT",
+  "reportKeys": [
+    "cur/MyCostReport/20240801-20240901/20240822T195122Z/MyCostReport-00001.snappy.parquet"
+  ],
+  "additionalArtifactKeys": []
+}
